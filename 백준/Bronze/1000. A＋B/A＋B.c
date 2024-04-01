@@ -1,13 +1,7 @@
 #include <stdio.h>
 int main(){
-    int a,b;
-    
-    scanf("%d",&a);
-    scanf("%d",&b);
-    
-    printf("%d",a+b);
-    
+    int A,B;
+    scanf("%d %d",&A,&B);
+    printf("%d",A+B);
     return 0;
-    
-    
 }
