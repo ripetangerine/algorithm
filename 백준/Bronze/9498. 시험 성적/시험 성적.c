@@ -1,24 +1,18 @@
 #include <stdio.h>
 int main(){
-    int Sco;
-    scanf("%d",&Sco);
+    int g;
+    scanf("%d",&g);
     
-    if(90<=Sco && 100>=Sco){
+    if(g>=90 && g<=100){
         printf("A");
-    }
-    else if(80<=Sco && 89>=Sco){
+    }else if (g>=80 && g<=89){
         printf("B");
-    }
-    else if(70<=Sco && 79>=Sco){
+    }else if (g>=70 && g<=79){
         printf("C");
-    }
-    else if(60<=Sco && 69>=Sco){
+    }else if (g>=60 && g<=69){
         printf("D");
-    }
-    else{
+    }else {
         printf("F");
     }
     return 0;
-
 }
-//90 ~ 100점은 A, 80 ~ 89점은 B, 70 ~ 79점은 C, 60 ~ 69점은 D, 나머지 점수는 F
