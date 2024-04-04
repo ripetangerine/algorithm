@@ -4,7 +4,7 @@ public class Main{
         Scanner in = new Scanner (System.in);
         int N = in.nextInt();
         in.close();
-        for(int i=1; i<10; i++){
+        for(int i=1; i<10; ++i){
             System.out.println(N+" * "+i+" = "+(N*i));
         }
     }
