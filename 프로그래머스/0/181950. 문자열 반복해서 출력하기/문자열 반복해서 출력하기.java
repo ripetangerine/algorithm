@@ -5,11 +5,14 @@ public class Solution {
         Scanner sc = new Scanner(System.in);
         String str = sc.next();
         int n = sc.nextInt();
-        String sum;
+        String str1 = "";
+        for(int i=0; i<n; i++){
+            str1+=str;
+            
+        }
+        System.out.println(str1);
         
-        sum = str.repeat(n);
         
-      
-        System.out.println(sum);
     }
+    
 }
