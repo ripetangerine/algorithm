@@ -1,17 +1,16 @@
 #include <stdio.h>
 int main(){
-    int g;
-    scanf("%d",&g);
-    
-    if(g>=90 && g<=100){
+    int s;
+    scanf("%d",&s);
+    if(100>=s && 90<=s){
         printf("A");
-    }else if (g>=80 && g<=89){
+    }else if(89>=s && 80<=s){
         printf("B");
-    }else if (g>=70 && g<=79){
+    }else if(79>=s && 70<=s){
         printf("C");
-    }else if (g>=60 && g<=69){
+    }else if(69>=s && 60<=s){
         printf("D");
-    }else {
+    }else{
         printf("F");
     }
     return 0;
