@@ -2,12 +2,13 @@
 int main(){
     int T,a,b;
     scanf("%d",&T);
-    int arr[] = {T};
     
-    for(int i=0; i<T; i++){
+    int i=0;
+    while(i<T){
+        i++;
         scanf("%d %d",&a,&b);
         printf("%d\n",a+b);
-    }  
+    }
 
     return 0;
 }
