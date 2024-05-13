@@ -1,14 +1,10 @@
 import java.util.Scanner;
 public class Main{
     public static void main(String args[]){
-        Scanner in = new Scanner(System.in);
-        char str[] = new char[1001];
-        String word = in.next();
-        int index = in.nextInt();
+        Scanner in = new Scanner (System.in);
+        String word= in.next();
+        int N = in.nextInt();
         
-        for(int i=0; i<word.length(); i++ ){
-            str[i] = word.charAt(i);
-        }
-        System.out.println(str[index-1]);
+        System.out.print(word.charAt(N-1));
     }
 }
