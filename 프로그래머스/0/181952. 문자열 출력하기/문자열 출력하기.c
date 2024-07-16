@@ -2,9 +2,9 @@
 #define LEN_INPUT 1000001
 
 int main(void) {
-    char str[LEN_INPUT]; scanf("%s",&str);
-    printf("%s",str);
+    char ch[LEN_INPUT];
+    gets(ch);
+    puts(ch);
     
     return 0;
-    
 }
