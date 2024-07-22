@@ -1,9 +1,9 @@
 class Solution {
     public int solution(int n) {
-        int sum=0; 
-        for(int i=2; i<=n; i+=2){
-            sum+=i;
-        }
-        return sum;
+        return recur(n,2);
+    }
+    static int recur(int n,int start){
+        if(start>n) return 0;
+        return start+recur(n,start+2);
     }
 }
