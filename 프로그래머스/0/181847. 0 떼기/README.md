@@ -1,10 +1,10 @@
 # [level 0] 0 떼기 - 181847 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181847) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181847?language=c) 
 
 ### 성능 요약
 
-메모리: 77.8 MB, 시간: 0.03 ms
+메모리: 4.46 MB, 시간: 0.01 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 06월 09일 10:51:17
+2024년 08월 04일 22:30:16
 
 ### 문제 설명
 
