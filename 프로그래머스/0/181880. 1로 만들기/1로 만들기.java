@@ -1,0 +1,19 @@
+class Solution {
+    public int solution(int[] num_list) {
+        int divide_op_num = 0;
+        for(int i=0; i<num_list.length; i++){
+            while(num_list[i]>1){
+                if(num_list[i]%2==0){
+                    num_list[i]/=2;
+                    divide_op_num++;
+                }
+                else{
+                    --num_list[i];
+                    num_list[i]/=2;
+                    divide_op_num++;
+                } 
+            }
+        }
+        return divide_op_num;
+    }
+}
